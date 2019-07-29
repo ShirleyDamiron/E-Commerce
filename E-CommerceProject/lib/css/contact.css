@@ -1,0 +1,166 @@
+body {
+  background-image: url("../img/background.jpg");
+  margin: 0;
+  height: 100%;
+  position: relative;
+}
+
+/* Nav Bar */
+
+.nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+.nav-ul__li {
+  float: left;
+}
+
+.nav-ul__li a {
+  display: block;
+  color: rgb(1, 0, 5);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration-style: double;
+  font-weight: bolder;
+}
+
+.nav-ul__li a:hover {
+  background-color: rgb(247, 243, 243);
+}
+
+.searchBar {
+  margin: auto;
+  padding-left: 20px;
+}
+
+.plaidPhrase {
+  float: left;
+  color: rgb(15, 14, 14);
+  font-family: cursive;
+  font-size: 15px;
+  color: rgb(117, 4, 4);
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+/* Nav Pic */
+
+.plaidLogo img {
+  width: 40px;
+}
+
+.plaidLogo {
+  margin-right: auto;
+  padding-left: 16px;
+}
+
+/* H's */
+h1 {
+  text-align: center;
+  font-family: cursive;
+  color: black;
+  font-size: 100px;
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+  color: black;
+  font-size: 50px;
+}
+
+/* Form Submission */
+
+.container input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: rgb(0, 5, 8);
+}
+
+.container input[type="submit"] {
+  background-color: rgb(189, 156, 9);
+  color: rgb(248, 247, 247);
+  padding: 12px 20px;
+  border: none;
+  border-radius: px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.container input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.sform {
+  border-radius: 5px;
+  background-color: #530202;
+  padding: 20px;
+  width: 500px;
+  height: 600px;
+}
+.contact-page-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+label {
+  color: whitesmoke;
+}
+
+.Image img {
+  height: 400px;
+}
+
+/* Footer */
+
+main {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Media */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+      display: block;
+  }
+  .sform {
+      margin: 0 auto;
+  }
+  .Image {
+    width: 399px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .Image img {
+      width: 100%;
+      height: 100%;
+  }
+}
