@@ -1,0 +1,16 @@
+{
+    "Products": [
+        { "id": "1", "cover": "", "title": "Activated", "artist": "Tee Grizzley", "price": "10.99"},
+        { "id": "2", "cover": "", "title": "Be 4 The Fame", "artist": "Roddy Ricch", "price": "9.99"},
+        { "id": "3", "cover": "", "title": "Wildboy", "artist": "Calboy", "price": "11.99"},
+        { "id": "4", "cover": "", "title": "AI Youngboy", "artist": "YoungBoy Never Broke Again", "price": "10.99"},
+        { "id": "5", "cover": "", "title": "Activated", "artist": "Tee Grizzley", "price": "10.99"},
+        { "id": "6", "cover": "", "title": "Activated", "artist": "Tee Grizzley", "price": "10.99"},
+        { "id": "7", "cover": "", "title": "Activated", "artist": "Tee Grizzley", "price": "10.99"},
+        { "id": "8", "cover": "", "title": "Activated", "artist": "Tee Grizzley", "price": "10.99"},
+        { "id": "9", "cover": "", "title": "Activated", "artist": "Tee Grizzley", "price": "10.99"},
+        { "id": "10","cover": "", "title": "Activated", "artist": "Tee Grizzley", "price": "10.99"},
+        { "id": "11", "cover": "", "title": "Activated", "artist": "Tee Grizzley", "price": "10.99"},
+        { "id": "12", "cover": "", "title": "Activated", "artist": "Tee Grizzley", "price": "10.99"}
+    ]
+}
